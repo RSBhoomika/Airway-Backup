@@ -1,0 +1,201 @@
+.body{
+    background: #F5D100;
+    font-family: Poppins;
+}
+.login .logo{
+    position: absolute;
+width: 139px;
+height: 90px;
+left: 99px;
+top: 28px;
+
+
+
+}
+.login .One{
+    position: absolute;
+width: 400.2px;
+height: 300.4px;
+left: 303px;
+top: -0.2px;
+filter: drop-shadow(0px 0px 54px rgba(0, 0, 0, 0.25));
+border-radius: 60px;
+
+}
+ .login .image6{
+    position: absolute;
+    width: 226px;
+    height: 215px;
+    left: 680px;
+    top: 60px;
+    border-radius: 50px;
+    
+}
+.login .image1{
+    position: absolute;
+width: 324px;
+height: 383px;
+left: -31px;
+top: 102px;
+filter: drop-shadow(0px 0px 54px rgba(0, 0, 0, 0.25));
+border-radius: 40px;
+}
+.login .image5{
+    position: absolute;
+width: 295.14px;
+height: 485.9px;
+left: 271px;
+top: 280px;
+border-radius: 40px;
+}
+.login .image4{
+    position: absolute;
+width: 307px;
+height: 300px;
+left: -47px;
+top: 452px;
+border-radius: 50px;
+}
+.login .image3{
+    position: absolute;
+width: 386px;
+height: 204px;
+left: 577px;
+top: 486px;
+border-radius: 60px;
+
+}
+.login .image2{
+    position: absolute;
+    width: 426.03px;
+    height: 252.99px;
+    left: 537px;
+    top: 258px;
+    filter: drop-shadow(0px 0px 54px rgba(0, 0, 0, 0.25));
+    border-radius: 40px;
+}
+.login .text{
+    position: absolute;
+    width: 749px;
+    height: 100px;
+    top:250px;
+    left:-52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 120px;
+ 
+  
+  
+  
+  color: #FFFFFF;
+}
+ .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+width: 500px;
+height: 580px;
+left: 1000px;
+top: 150px;
+
+}
+
+ form {
+    display: table-cell;
+    width: 400px;
+    background-color:#F9ED69;
+    padding: 40px 60px;
+    color: #505e6c;
+    border-radius: 40px;
+    box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
+}
+
+
+
+ form h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #212121;
+}
+ form h5{
+    font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 24px;
+text-align: center;
+
+color: #4A4A4A;
+
+}
+ form .form-check{
+    font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+position: absolute;
+top: 320px;
+right:2px;
+color: #646464;
+
+}
+
+ form .form-control {
+    background:transparent;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #dfe7f1;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px;
+}
+
+
+ form .btn-success{
+    color: #212121;
+    border: none;
+    padding: 1rem 1rem;
+    margin-top: 50px;
+    text-shadow: none;
+    outline: none !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    position: absolute;
+    left:200px;
+    top:350px;
+}
+
+ form .btn-success:hover,
+ form .btn-success:active {
+    background: #F5D100
+}
+
+ form .btn-success:active {
+    transform: translateY(1px)
+}
+.form-group ul li button{
+    position: absolute;
+    top:380px;
+    right:200px;
+    background-color:#F9ED69;
+    color: black;
+    padding-inline:1.5rem;
+    padding-block: 1rem;
+    font-weight:bold;
+    border-radius: 14px;
+    text-decoration: none;
+    
+}
+.form-group ul li button:hover{
+    background:black;
+  color:#F9ED69;
+}
