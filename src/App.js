@@ -6,6 +6,9 @@ import Signup from './Components/Signup';
 import FAQ from './Components/FAQ';
 import Info from './Components/Info';
 import Login from './Components/Login';
+import Booking from './Components/Frame8'
+import Account from './Components/account';
+import Points from './Components/Points';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 

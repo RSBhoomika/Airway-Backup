@@ -15,19 +15,19 @@ export default function Carousels() {
         <div>
 
             <div>
-                <nav id="main-nav" >
-                    <div className="container">
+                <div id="main-nav" >
+                    <div className="containerss">
                         <h2 id="page-header">
                             <img src={Vectorlogo} className="logo" />
                         </h2>
                         <ul>
                             <li>
-                                <Button onClick={() => history.push('/Login')} >Login</Button>
+                                <a href="/Login">Login</a>
 
                             </li>
                         </ul>
                     </div>
-                </nav>
+                </div>
                 <div className='body'>
                     <img src={img1} alt="airplane" className="carousel-img1" />
                     <img src={img2} alt="luggage" className="carousel-img2" />
@@ -53,9 +53,9 @@ export default function Carousels() {
                     </main>
                     <div class="link">
                         <ul>
-                            <li>
-                                <Button onClick={() => history.push('/Signup')}>Sign up</Button>
-                                {/*<a href="SignUp.js" className="signIn" target="_blank" rel="noopener noreferrer"><i className="fab fa-google">Sign up with Google</i></a> */}
+                            <li className="signIn">
+
+                                <a href="/Signup" target="_blank" rel="noopener noreferrer">Sign up</a>
                             </li>
                             <li>
                                 <a href="#" className="guestAc">Or sign in as a Guest</a>

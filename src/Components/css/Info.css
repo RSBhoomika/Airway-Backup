@@ -1,6 +1,6 @@
 .info{
     height: 800px;
-    background-color: white;
+    background-color: #F5D100;
     background-image:  linear-gradient( #FAEE6D 0%, #FFFFFF 20%);
    
 }
@@ -48,7 +48,7 @@ color: #515151;
 
 
 
-.container {
+.containers {
     max-width: 60rem;
     margin: auto;
     padding: 1em;

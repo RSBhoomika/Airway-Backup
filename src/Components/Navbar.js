@@ -9,10 +9,10 @@ const Navbar = () => {
     };
     return (
         <>
-            <Link to='/Info' style={mystyle} >  Home </Link>
+            <Link to='/booking' style={mystyle} >  Home </Link>
             <Link style={mystyle}> History </Link>
-            <Link style={mystyle}> Points </Link>
-            <Link to='/FAQ' style={mystyle}>  Account </Link>
+            <Link to='/Points' style={mystyle}> Points </Link>
+            <Link to='/Account' style={mystyle}>  Account </Link>
         </>
     )
 };

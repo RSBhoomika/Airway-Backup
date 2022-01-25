@@ -47,17 +47,17 @@ const App = () => {
             <img src={Logo} alt="vector" className="logo" />
             <div className="navbar">
                 <ul>
-                    {/* <li><a href="#Home" className="home">Home</a></li>
+                    <li><a href="/booking" className="home">Home</a></li>
 
 
                     <li><a href="#History" className="history">History</a></li>
 
 
-                    <li><a href="#Points" className="points">Points</a></li>
+                    <li><a href="/Points" className="points">Points</a></li>
 
 
-                    <li><a href="#Account" className="account">Account</a></li> */}
-                    <li><Navbar /></li>
+                    <li><a href="/account" className="account">Account</a></li>
+
 
                     <li><img src={Account} alt="ellipse" className="ellipse" /></li>
 

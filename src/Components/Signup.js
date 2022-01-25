@@ -90,22 +90,22 @@ export default function Signup() {
                 <form onSubmit={postSignup}>
                     <h2 className="text-center">One Last Step.</h2>
                     <h5>Fill these essential details and you're good to go</h5>
-                    <div className="form-group"><input className="form-control" type="text" name="name" placeholder="Name" value={name}
+                    <div className="form-group"><input className="form-control1" type="text" name="name" placeholder="Name" value={name}
                         onChange={(e) => {
                             changeName(e.target.value)
                         }}
                     /></div>
-                    <div className="form-group"><input className="form-control" type="email" name="email" placeholder="Email" value={email}
+                    <div className="form-group"><input className="form-control2" type="email" name="email" placeholder="Email" value={email}
                         onChange={(e) => {
                             changeEmail(e.target.value)
                         }}
                     /></div>
-                    <div className="form-group"><input className="form-control" type="tel" name="phone_no" placeholder="Phone no" value={phoneNo}
+                    <div className="form-group"><input className="form-control3" type="tel" name="phone_no" placeholder="Phone no" value={phoneNo}
                         onChange={(e) => {
                             changePhone(e.target.value)
                         }}
                     /></div>
-                    <div className="form-group"><input className="form-control" type="password" name="password" placeholder="password" value={password}
+                    <div className="form-group"><input className="form-control4" type="password" name="password" placeholder="password" value={password}
                         onChange={(e) => {
                             changePassword(e.target.value)
                         }}
@@ -116,7 +116,7 @@ export default function Signup() {
                     <div className="form-group">
                         <ul>
                             <li>
-                                <Button onClick={() => history.push('/FAQ')} type="submit">Sign Up</Button>
+                                <a className="btn btn-success btn-block" href="/booking">Sign Up</a>
                             </li>
                         </ul>
 

@@ -107,16 +107,19 @@ top: 150px;
  form {
     display: table-cell;
     width: 400px;
-    background-color:#F9ED69;
-    padding: 40px 60px;
+    /*background-color:#F9ED69;*/
+    /*padding: 40px 60px;*/
     color: #505e6c;
     border-radius: 40px;
-    box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);
+   /* box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.25);*/
 }
 
 
 
  form h2 {
+    position: absolute;
+    top:20px;
+    left:100px;
     font-weight: 600;
     font-size: 38px;
     line-height: 30px;
@@ -125,6 +128,9 @@ top: 150px;
     color: #212121;
 }
  form h5{
+    position: absolute;
+    top:110px;
+    left:-5px;
     font-style: normal;
 font-weight: 500;
 font-size: 22px;
@@ -140,13 +146,14 @@ font-size: 16px;
 line-height: 23px;
 text-align: center;
 position: absolute;
-top: 320px;
+top: 395px;
 right:2px;
 color: #646464;
 
 }
 
  form .form-control {
+    
     background:transparent;
     border: none;
     border-radius: 10px;
@@ -171,12 +178,12 @@ color: #646464;
     border-radius: 14px;
     position: absolute;
     left:200px;
-    top:350px;
+    top:400px;
 }
 
  form .btn-success:hover,
  form .btn-success:active {
-    background: #F5D100
+    background: black;
 }
 
  form .btn-success:active {
@@ -198,4 +205,44 @@ color: #646464;
 .form-group ul li button:hover{
     background:black;
   color:#F9ED69;
+}
+.form-group .form-control1{
+    position: absolute;
+    
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #dfe7f1;
+    top:200px;
+    width: 350px;
+    right:70px;
+}
+.form-group .form-control2{
+    position: absolute;
+   
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #dfe7f1;
+    width: 350px;
+    top:250px;
+    right:70px;
+}
+.form-group .form-control3{
+    position: absolute;
+   
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #dfe7f1;
+    width: 350px;
+    top:300px;
+    right:70px;
+}
+.form-group .form-control4{
+    position: absolute;
+   
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #dfe7f1;
+    width: 350px;
+    top:350px;
+    right:70px;
 }

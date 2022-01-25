@@ -32,19 +32,19 @@ function Info() {
            </div>*/}
             <img src={Logo} alt="vector" className="logo" />
             <ul className='nav-bar'>
-                {/*<li><a href="#" className='home'>Home</a></li>
+                <li><a href="/booking" className='home'>Home</a></li>
                 <li><a href="#" className='history'>History</a></li>
-                <li><a href="#" className='points'>Points</a></li>
-                <li><a href="#" className='account'>Account</a></li> */}
-                <li><Navbar /></li>
+                <li><a href="/Points" className='points'>Points</a></li>
+                <li><a href="/account" className='account'>Account</a></li>
+
 
                 <li><img src={Account} alt="ellipse" className="ellipse" /></li>
             </ul>
             {/* <Navbar/> */}
-            <div className='container'>
+            <div className='containers'>
                 <div className='card'>
                     <article className='card-content'>
-                        <h2 className='title' >Flight Information</h2>
+                        {/*<h2 className='title' >Flight Information</h2> */}
                         <h3 className='secondary-title'>{flight}</h3>
                         <div className='flight-info'>
                             <p>Flight info</p>
@@ -77,7 +77,7 @@ function Info() {
                         <div className='footer'>
                             <div className='buttons'>
                                 <button className='submit' onClick={() => setButtonPopup(true)}>Book</button>
-                                <button className='back'>Back</button>
+                                <a href="/booking" className='back'>Back</a>
                             </div>
                         </div>
                     </article>
@@ -86,7 +86,7 @@ function Info() {
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
                 <img src={Check} alt="Check"></img>
 
-                <h2>Sucess</h2>
+                <h5>Sucess</h5>
                 <p >Your booking is confirmed and you've earned</p>
                 <h1>{points}</h1>
                 <h5>Points</h5>

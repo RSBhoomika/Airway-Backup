@@ -99,8 +99,8 @@ ul li{
 
 a.guestAc{
   position: absolute;
-  top:600px;
-left: 760px;
+  top:650px;
+ left: 700px;
 padding-top: 60px;
   color: black;
   font-weight: 500;
@@ -125,7 +125,7 @@ filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
   z-index:2;
 }
 
-#main-nav .container{
+#main-nav .containerss{
   display:grid;
   grid-template-columns: 6fr 3fr 2fr;
   padding:4px;
@@ -133,6 +133,8 @@ filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
 }
 
 #main-nav .logo{
+  position: absolute;
+  top:-30px;
   width:100px;
   height: 75px;
 }
@@ -144,7 +146,7 @@ filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
  
 }
 
-#main-nav ul li button{
+#main-nav ul li a{
   position: absolute;
   right:200px;
   background-color:#F9ED69;
@@ -157,11 +159,11 @@ filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
   
 }
 
-#main-nav ul li button:hover{
+#main-nav ul li a:hover{
   background:black;
   color:#F9ED69;
 }
-.link ul li button{
+.link ul li a{
   position: absolute;
   left:780px;
   background-color:#F9ED69;
@@ -173,7 +175,7 @@ filter: drop-shadow(-1px 0px 24px rgba(0, 0, 0, 0.25));
   text-decoration: none;
   
 }
-.link ul li button:hover{
+.link ul li a:hover{
   background:black;
   color:#F9ED69;
 }

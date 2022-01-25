@@ -87,13 +87,13 @@ export default function Signup() {
                 <form onSubmit={postSignup}>
                     <h2 className="text-center">Login into your account</h2>
                     <h5>Fill these essential details and you're good to go</h5>
-                    <div className="form-group"><input className="form-control" type="text" name="name" placeholder="Name" value={name}
+                    <div className="form-group"><input className="form-control1" type="text" name="name" placeholder="Name" value={name}
                         onChange={(e) => {
                             enterName(e.target.value)
                         }}
                     /></div>
 
-                    <div className="form-group"><input className="form-control" type="password" name="password" placeholder="password" value={password}
+                    <div className="form-group"><input className="form-control2" type="password" name="password" placeholder="password" value={password}
                         onChange={(e) => {
                             enterPassword(e.target.value)
                         }}
@@ -104,7 +104,7 @@ export default function Signup() {
                     <div className="form-group">
                         <ul>
                             <li>
-                                <Button onClick={() => history.push('/FAQ')} type="submit">Login</Button>
+                                <a className="btn btn-success btn-block" href="/booking" type="submit">Login</a>
                             </li>
                         </ul>
                         {/* <button className="btn btn-success btn-block" type="submit">Login</button> */}
