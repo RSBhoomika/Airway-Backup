@@ -312,7 +312,7 @@ form .con28 {
   height: 781px;
   left: 700px;
   top: 4px;
-
+  overflow-y:scroll;
   background: #ffffff;
   border: 1px solid #e1e1e1;
   box-sizing: border-box;
@@ -322,7 +322,7 @@ form .con28 {
 
 /*container 1*/
 
-.con218 {
+/*.con218 {
   position: absolute;
   width: 606px;
   height: 149px;
@@ -332,7 +332,7 @@ form .con28 {
   background: #ffffff;
   box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-}
+}*/
 div .bangalore18 {
   position: absolute;
   width: 126px;
@@ -931,10 +931,10 @@ div .arrbox38 {
 }
 
 div .seemore8 {
-  position: absolute;
-  width: 86px;
+  position: relative;
+  width: 50px;
   height: 22px;
-  left: 235px;
+  left: 335px;
   top: 168px;
 
   font-family: Poppins;
@@ -967,4 +967,17 @@ div .seemorearr8 {
   color: #5cabf2;
 
   transform: rotate(90deg);
+}
+.con218 div {
+
+  position:relative;
+  margin: 10px;
+  padding: 10px;
+  width: 606px;
+  height: 149px;
+  left: 64px;
+  top: 100px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }

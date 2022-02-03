@@ -102,11 +102,11 @@ export default function Signup() {
                         <div className="form-check">By clicking the following button you accept the terms and conditions</div>
                     </div>
                     <div className="form-group">
-                        <ul>
-                            <li>
-                                <a className="btn btn-success btn-block" href="/booking" type="submit">Login</a>
-                            </li>
-                        </ul>
+
+
+                        <button className="btn btn-success btn-block" type="submit"> <a href="/booking">Login</a></button>
+
+
                         {/* <button className="btn btn-success btn-block" type="submit">Login</button> */}
 
                     </div>

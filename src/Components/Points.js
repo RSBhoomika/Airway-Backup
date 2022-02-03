@@ -6,21 +6,14 @@ import ellipse2 from "../images/Ellipse 2 (2).svg";
 import rectangle14 from "../images/Rectangle 14.svg";
 import rectangle13 from "../images/Rectangle 13.svg";
 import arrow1 from "../images/Arrow left 1.jpg";
-import arrow2 from "../images/Arrow left 1.jpg";
-import arrow3 from "../images/Arrow left 1.jpg";
 import leaves1 from "../images/leaves1.svg";
 import number6543 from "../images/6543 1.jpg";
 import ellipse4 from "../images/Ellipse 4.jpg";
 import history from "./history";
 import Navbar from "./Navbar";
+import points from './userPoints'
 
 const Points = () => {
-  var place1 = "Pune";
-  var place2 = "Chennai";
-  var place3 = "Bangalore";
-  var number1 = "+70";
-  var number2 = "+30";
-  var number3 = "+0";
   var total = "100";
 
   return (
@@ -75,71 +68,30 @@ const Points = () => {
           <div className="cont1">
             <p></p>
             <div className="container1">
-              <div className="pune1">
-                <p>{place1}</p>
-              </div>
-              <div className="container12">
-                <div className="seventy">
-                  <p>{number1}</p>
-                </div>
-              </div>
-              <div className="container112">
-                <div className="arrow1">
-                  <a href="#">
-                    <img src={arrow1} alt="arrow1" />
-                  </a>
-                </div>
-                <a href="#"></a>
-              </div>
-              <a href="#"></a>
-              <div className="container2">
-                <div className="chennai1">
-                  <p>{place2}</p>
-                </div>
-                <div className="container22">
-                  <div className="ten">
-                    <p>{number2}</p>
-                  </div>
-                </div>
+              {points.map((point, index) => (
+                <div key={index}>
 
-                <div className="container222">
-                  <a href="#"></a>
-                  <div className="arrow2">
-                    <a href="#"></a>
-                    <a href="#">
-                      <img src={arrow2} alt="arrow2" />
-                    </a>
-                  </div>
-                  <a href="#"></a>
-                </div>
-                <a href="#"></a>
-              </div>
-              <a href="#"></a>
-              <div className="container3">
-                <div className="bangalore1">
-                  <p>{place3}</p>
-                </div>
-                <div className="container33">
-                  <div className="twenty">
-                    <p>{number3}</p>
-                  </div>
-                </div>
+                  <p className="place">{point.place}</p>
 
-                <div className="container333">
-                  <a href="#"></a>
-                  <div className="arrow3">
-                    <a href="#"></a>
-                    <a href="#">
-                      <img src={arrow3} alt="arrow3" />
-                    </a>
-                  </div>
-                  <a href="#"></a>
+
+
+                  <p className="container12">{point.points}</p>
+
+
+
+
+                  <img src={arrow1} className="container112" alt="arrow1" />
+
+
                 </div>
-                <a href="#"></a>
-              </div>
-              <a href="#"></a>
+              ))
+
+            /*}
+              
+  </div>*/}
+
             </div>
-            <a href="#"></a>
+
           </div>
         </form>
 
